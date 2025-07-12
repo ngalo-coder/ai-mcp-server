@@ -1,0 +1,22 @@
+{
+  "name": "tathmini-ai-mcp-server",
+  "version": "1.0.0",
+  "description": "AI Analysis MCP Server for TathminiAI",
+  "main": "ai-mcp-server.js",
+  "scripts": {
+    "start": "node ai-mcp-server.js",
+    "dev": "nodemon ai-mcp-server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
